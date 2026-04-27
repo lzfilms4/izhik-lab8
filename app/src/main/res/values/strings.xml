@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Lab 8 Sunrise</string>
+    <string name="sun">Солнце</string>
+    <string name="dog">Собака</string>
+    <string name="clock">Часы</string>
+    <string name="hour_hand">Часовая стрелка</string>
+    <string name="minute_hand">Минутная стрелка</string>
+</resources>
