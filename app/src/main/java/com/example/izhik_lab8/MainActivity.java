@@ -27,7 +27,6 @@ public class MainActivity extends AppCompatActivity {
         startAnimation(R.id.sun, R.anim.sun_rise);
         startAnimation(R.id.minute_hand, R.anim.minute_turn);
         startAnimation(R.id.hour_hand, R.anim.hour_turn);
-        startAnimation(R.id.dog, R.anim.image_float);
     }
 
     private void startAnimation(int viewId, int animationId) {

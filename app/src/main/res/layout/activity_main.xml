@@ -6,10 +6,23 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <com.example.izhik_lab8.Draw2D
-        android:id="@+id/drawing"
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="3"
+            android:background="@drawable/sky_background" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/field_background" />
+    </LinearLayout>
 
     <ImageView
         android:id="@+id/sun"
@@ -18,18 +31,6 @@
         android:layout_gravity="top|center_horizontal"
         android:contentDescription="@string/sun"
         android:src="@drawable/sun" />
-
-    <ImageView
-        android:id="@+id/dog"
-        android:layout_width="132dp"
-        android:layout_height="132dp"
-        android:layout_gravity="bottom|start"
-        android:layout_marginStart="24dp"
-        android:layout_marginBottom="26dp"
-        android:adjustViewBounds="true"
-        android:contentDescription="@string/dog"
-        android:scaleType="fitCenter"
-        android:src="@drawable/dog" />
 
     <FrameLayout
         android:id="@+id/clock_group"
